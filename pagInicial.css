@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    padding: 2% 0 2% 0;
+    gap: 10%;
+    background-color: #63BCFF;
+    border-style: solid;
+    border-color:black;
+}
+
+.cabecalho_titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana;
+}

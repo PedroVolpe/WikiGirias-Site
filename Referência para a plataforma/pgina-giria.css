@@ -1,0 +1,519 @@
+.pgina-giria-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.pgina-giria-definio {
+  width: 1440px;
+  height: 1802px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.pgina-giria-copy {
+  gap: 24px;
+  top: 244px;
+  left: 299px;
+  width: 842px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.pgina-giria-navigation-footer {
+  top: 1512px;
+  left: 0px;
+  width: 1440px;
+  height: 264px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.pgina-giria-text {
+  top: 52px;
+  left: 80px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: 150%;
+}
+.pgina-giria-social-icons {
+  gap: 8px;
+  top: 176px;
+  left: 80px;
+  width: 184px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.pgina-giria-buttons-icon {
+  gap: 8px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  padding: 8px;
+  position: relative;
+  align-items: center;
+  border-radius: 4px;
+  justify-content: center;
+}
+.pgina-giria-icon {
+  top: 8px;
+  left: 8px;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.pgina-giria-icon1 {
+  top: 2.0399999618530273px;
+  left: 2px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+.pgina-giria-buttons-icon1 {
+  gap: 8px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  padding: 8px;
+  position: relative;
+  align-items: center;
+  border-radius: 4px;
+  justify-content: center;
+}
+.pgina-giria-icon2 {
+  top: 8px;
+  left: 8px;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.pgina-giria-icon3 {
+  top: 3px;
+  left: 3px;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+}
+.pgina-giria-buttons-icon2 {
+  gap: 8px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  padding: 8px;
+  position: relative;
+  align-items: center;
+  border-radius: 4px;
+  justify-content: center;
+}
+.pgina-giria-icon4 {
+  top: 8px;
+  left: 8px;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.pgina-giria-icon5 {
+  top: 5px;
+  left: 2px;
+  width: 20px;
+  height: 14px;
+  position: absolute;
+}
+.pgina-giria-buttons-icon3 {
+  gap: 8px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  padding: 8px;
+  position: relative;
+  align-items: center;
+  border-radius: 4px;
+  justify-content: center;
+}
+.pgina-giria-icon6 {
+  top: 8px;
+  left: 8px;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.pgina-giria-icon7 {
+  top: 2px;
+  left: 2px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+.pgina-giria-divider {
+  top: 1px;
+  left: 80px;
+  width: 1280px;
+  height: 1px;
+  position: absolute;
+  align-self: stretch;
+}
+.pgina-giria-items {
+  gap: 24px;
+  top: 76px;
+  left: 1031px;
+  width: 187px;
+  display: flex;
+  position: absolute;
+  align-items: flex-end;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.pgina-giria-text02 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 150%;
+}
+.pgina-giria-text04 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 150%;
+}
+.pgina-giria-text06 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 150%;
+}
+.pgina-giria-items1 {
+  gap: 24px;
+  top: 76px;
+  left: 812px;
+  width: 187px;
+  display: flex;
+  position: absolute;
+  align-items: flex-end;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.pgina-giria-text08 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 150%;
+}
+.pgina-giria-text10 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 150%;
+}
+.pgina-giria-text12 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 150%;
+}
+.pgina-giria-text14 {
+  top: 76px;
+  left: 1182px;
+  color: rgba(0, 0, 0, 1);
+  width: 187px;
+  height: auto;
+  position: absolute;
+  align-self: stretch;
+  text-align: left;
+  line-height: 150%;
+}
+.pgina-giria-text16 {
+  top: 124px;
+  left: 1182px;
+  color: rgba(0, 0, 0, 1);
+  width: 187px;
+  height: auto;
+  position: absolute;
+  align-self: stretch;
+  text-align: left;
+  line-height: 150%;
+}
+.pgina-giria-text18 {
+  top: 172px;
+  left: 1182px;
+  color: rgba(0, 0, 0, 1);
+  width: 187px;
+  height: auto;
+  position: absolute;
+  align-self: stretch;
+  text-align: left;
+  line-height: 150%;
+}
+.pgina-giria-navigation {
+  top: 0px;
+  left: 0px;
+  width: 1440px;
+  height: 228px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(99, 188, 255, 1);
+}
+.pgina-giria-text20 {
+  top: 56.92841720581055px;
+  left: 58.55507278442383px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 46.72673034667969px;
+  font-style: Semi Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.pgina-giria-field {
+  gap: -31.717247009277344px;
+  top: 90px;
+  left: 744px;
+  width: 522px;
+  height: 59px;
+  display: flex;
+  padding: 13.825733184814453px;
+  position: absolute;
+  box-shadow: 0px 0.8641083240509033px 1.7282166481018066px 0px rgba(0, 0, 0, 0.05000000074505806) ;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 0.8641083240509033px;
+  border-radius: 6.912866592407227px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.pgina-giria-text24 {
+  color: rgba(0, 0, 0, 1);
+  width: 430px;
+  height: auto;
+  font-size: 17.280000686645508px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.pgina-giria-image {
+  width: 66px;
+  height: 50px;
+  object-fit: cover;
+}
+.pgina-giria-button-new {
+  gap: 5.840841293334961px;
+  top: 93.1397705078125px;
+  left: 1276.68310546875px;
+  width: 120px;
+  height: 52.04881286621094px;
+  display: flex;
+  padding: 17.522523880004883px 23.363365173339844px;
+  position: absolute;
+  box-shadow: 0px 0.7301051616668701px 1.4602103233337402px 0px rgba(0, 0, 0, 0.05000000074505806) ;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 5.840841293334961px;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 1);
+}
+.pgina-giria-text26 {
+  color: rgba(255, 255, 255, 1);
+  width: 74px;
+  height: auto;
+  font-size: 18.705041885375977px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.pgina-giria-line1 {
+  top: 122.4168701171875px;
+  left: 1229.416748046875px;
+  width: 28px;
+  height: 1px;
+  position: absolute;
+}
+.pgina-giria-rectangle14 {
+  top: 202.9090576171875px;
+  left: 0.813339352607727px;
+  width: 1170px;
+  height: 25px;
+  position: absolute;
+}
+.pgina-giria-rectangle15 {
+  top: 203px;
+  left: 1px;
+  width: 1439px;
+  height: 25px;
+  position: absolute;
+}
+.pgina-giria-rectangle16 {
+  top: 0px;
+  left: 1px;
+  width: 1439px;
+  height: 25px;
+  position: absolute;
+}
+.pgina-giria-rectangle18 {
+  top: 264px;
+  left: 206px;
+  width: 983px;
+  height: 1213px;
+  position: absolute;
+  border-radius: 30px;
+}
+.pgina-giria-text28 {
+  top: 300px;
+  left: 228px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 54.53300857543945px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.pgina-giria-text30 {
+  top: 461px;
+  left: 228px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.pgina-giria-text32 {
+  top: 1213px;
+  left: 225px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.pgina-giria-text34 {
+  top: 846px;
+  left: 228px;
+  color: rgba(0, 0, 0, 1);
+  width: 704px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.pgina-giria-rectangle25 {
+  top: 303px;
+  left: 772px;
+  width: 402px;
+  height: 61px;
+  position: absolute;
+  border-radius: 30px;
+}
+.pgina-giria-text36 {
+  top: 315px;
+  left: 787px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.pgina-giria-button-new1 {
+  gap: 5.557918548583984px;
+  top: 152px;
+  left: 744px;
+  width: 154px;
+  height: 37.145729064941406px;
+  display: flex;
+  padding: 16.673755645751953px 22.231674194335938px;
+  position: absolute;
+  box-shadow: 0px 0.694739818572998px 1.389479637145996px 0px rgba(0, 0, 0, 0.05000000074505806) ;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 5.557918548583984px;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 1);
+}
+.pgina-giria-text38 {
+  color: rgba(255, 255, 255, 1);
+  width: 142px;
+  height: auto;
+  font-size: 17.798994064331055px;
+  font-style: Medium;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
