@@ -1,21 +1,98 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    position: relative;
+}
+
+.barra_preta {
+    background-color: black;
+    height: 10px;
+    width: 100%;
 }
 
 .cabecalho {
     display: flex;
     justify-content: center;
-    padding: 2% 0 2% 0;
+    padding: 2% 0;
     gap: 10%;
     background-color: #63BCFF;
     border-style: solid;
-    border-color:black;
+    border-color: black;
+    flex-wrap: wrap;
 }
 
 .cabecalho_titulo {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana;
+    color: black;
+}
+
+.barra_pesquisa {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.barra_pesquisa input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-buscar {
+    margin-top: 0px;
+    margin-right: 10px;
+}
+
+.btn-adicionar-tema {
+    margin-top: 10px;
+}
+
+.frase-centralizada {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.frase-centralizada p {
+    font-size: 18px;
+}
+
+.conteudo-central {
+    flex: 1;
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 1200px;
+    align-self: center; /* Centraliza a região central verticalmente */
 }
