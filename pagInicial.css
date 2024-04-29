@@ -78,21 +78,81 @@ header {
     margin-top: 10px;
 }
 
-.frase-centralizada {
+.conteudo_principal {
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo_principal_titulo {
+    padding: 3% 2%;
     text-align: center;
-    margin-top: 20px;
+    /*Depois bota a fonte personalizada deste título*/
 }
 
-.frase-centralizada p {
-    font-size: 18px;
+.conteudo_principal_girias {
+    background-color: #E1EDF5;
+    border-radius: 15px;
+    padding: 1% 1% 1% 1%;
+    margin: 1% 4% 1% 4%;
+    font-size: 1.5vw;
 }
 
-.conteudo-central {
-    flex: 1;
-    background-color: white;
-    padding: 20px;
-    margin: 20px auto;
-    width: 80%;
-    max-width: 1200px;
-    align-self: center; /* Centraliza a região central verticalmente */
+.conteudo_principal_girias_titulo {
+    /*Depois bota fonte personalizada deste titulo*/
+    padding-bottom: 0.5%;
 }
+
+.conteudo_principal_girias_linhas {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.conteudo_principal_girias_linhas_linha {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.conteudo_principal_girias_giria {
+    font-size: 1.7vw;
+}
+
+.conteudo_principal_giria_do_dia {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3%;
+    
+}
+
+.conteudo_principal_giria_do_dia_texto {
+    background: linear-gradient(#BFE2FC, #728696);
+    border-radius: 20px;
+    padding: 1% 1% 1% 1%;
+}
+
+.conteudo_principal_giria_do_dia_titulo {
+    font-size: 2vw;
+}
+
+.conteudo_principal_giria_do_dia_significado {
+    font-size: 1.5vw;
+    padding: 1.5% 1.5% 0 0;
+}
+
+.conteudo_principal_giria_do_dia_lista {
+    font-size: 1.5vw;
+    padding-right: 8%;
+    /*tem q arruamr a identação desta lista*/
+}
+
+.conteudo_principal_giria_do_dia_link {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.conteudo_principal_giria_do_dia_publicidade {
+    background-color: #D9D9D9;
+    padding: 10%;
+}
+
