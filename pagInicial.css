@@ -141,7 +141,7 @@ header {
 
 .conteudo_principal_giria_do_dia_lista {
     font-size: 1.5vw;
-    padding-right: 8%;
+    padding-inline-start: 10%;
     /*tem q arruamr a identação desta lista*/
 }
 
@@ -151,8 +151,57 @@ header {
     justify-content: space-evenly;
 }
 
+.conteudo_principal_giria_do_dia_link {
+    font-size: 1.5vw;
+}
+
+.conteudo_principal_giria_do_dia_link_decoracao {
+    color: rgb(0, 38, 255);
+}
+
 .conteudo_principal_giria_do_dia_publicidade {
     background-color: #D9D9D9;
     padding: 10%;
 }
 
+.rodape {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40vw;
+    padding-top: 4%;
+}
+
+.rodape_nome {
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+}
+
+.rodape_nome_texto {
+    font-size: 1.3vw;
+    /*Depois bota fonte personalizada*/
+}
+
+.rodape_nome_icones {
+    display: flex;
+    gap: 8%;
+    justify-content: space-between;
+}
+
+.rodape_nome_icones_icone {
+    scale: 0.7;
+}
+
+.rodape_links {
+    display: flex;
+    flex-direction: column;
+}
+
+.rodape_links_linhas {
+    display: flex;
+    gap: 1.2vw;
+}
+
+.rodape_links_linhas_linha {
+    font-size: 1.05vw;
+}
