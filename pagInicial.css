@@ -1,21 +1,207 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    position: relative;
+}
+
+.barra_preta {
+    background-color: black;
+    height: 10px;
+    width: 100%;
 }
 
 .cabecalho {
     display: flex;
     justify-content: center;
-    padding: 2% 0 2% 0;
+    padding: 2% 0;
     gap: 10%;
     background-color: #63BCFF;
     border-style: solid;
-    border-color:black;
+    border-color: black;
+    flex-wrap: wrap;
 }
 
 .cabecalho_titulo {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana;
+    color: black;
+}
+
+.barra_pesquisa {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.barra_pesquisa input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-buscar {
+    margin-top: 0px;
+    margin-right: 10px;
+}
+
+.btn-adicionar-tema {
+    margin-top: 10px;
+}
+
+.conteudo_principal {
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo_principal_titulo {
+    padding: 3% 2%;
+    text-align: center;
+    /*Depois bota a fonte personalizada deste título*/
+}
+
+.conteudo_principal_girias {
+    background-color: #E1EDF5;
+    border-radius: 15px;
+    padding: 1% 1% 1% 1%;
+    margin: 1% 4% 1% 4%;
+    font-size: 1.5vw;
+}
+
+.conteudo_principal_girias_titulo {
+    /*Depois bota fonte personalizada deste titulo*/
+    padding-bottom: 0.5%;
+}
+
+.conteudo_principal_girias_linhas {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.conteudo_principal_girias_linhas_linha {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.conteudo_principal_girias_giria {
+    font-size: 1.7vw;
+}
+
+.conteudo_principal_giria_do_dia {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3%;
+    
+}
+
+.conteudo_principal_giria_do_dia_texto {
+    background: linear-gradient(#BFE2FC, #728696);
+    border-radius: 20px;
+    padding: 1% 1% 1% 1%;
+}
+
+.conteudo_principal_giria_do_dia_titulo {
+    font-size: 2vw;
+}
+
+.conteudo_principal_giria_do_dia_significado {
+    font-size: 1.5vw;
+    padding: 1.5% 1.5% 0 0;
+}
+
+.conteudo_principal_giria_do_dia_lista {
+    font-size: 1.5vw;
+    padding-inline-start: 10%;
+    /*tem q arruamr a identação desta lista*/
+}
+
+.conteudo_principal_giria_do_dia_link {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.conteudo_principal_giria_do_dia_link {
+    font-size: 1.5vw;
+}
+
+.conteudo_principal_giria_do_dia_link_decoracao {
+    color: rgb(0, 38, 255);
+}
+
+.conteudo_principal_giria_do_dia_publicidade {
+    background-color: #D9D9D9;
+    padding: 10%;
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40vw;
+    padding-top: 4%;
+}
+
+.rodape_nome {
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+}
+
+.rodape_nome_texto {
+    font-size: 1.3vw;
+    /*Depois bota fonte personalizada*/
+}
+
+.rodape_nome_icones {
+    display: flex;
+    gap: 8%;
+    justify-content: space-between;
+}
+
+.rodape_nome_icones_icone {
+    scale: 0.7;
+}
+
+.rodape_links {
+    display: flex;
+    flex-direction: column;
+}
+
+.rodape_links_linhas {
+    display: flex;
+    gap: 1.2vw;
+}
+
+.rodape_links_linhas_linha {
+    font-size: 1.05vw;
 }
