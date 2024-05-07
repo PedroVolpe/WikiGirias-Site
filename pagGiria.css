@@ -13,7 +13,7 @@ body {
     font-family: 'Inter';
 }
 
-/* --- Header ---*/
+/*--- Header ---*/
 
 .cabecalho {
     display: flex;
@@ -79,95 +79,84 @@ body {
 .btn-adicionar-tema {
     margin-top: 10px;
 }
+
 /*-----------------*/
 
 /* --- Main ---*/
+.principal {
+    padding: 2% 6% 2% 6%;
+}
 
-.conteudo_principal {
+.principal_bloco {
     display: flex;
     flex-direction: column;
-}
-
-.conteudo_principal_titulo {
-    padding: 3% 2%;
-    text-align: center;
-    /*Depois bota a fonte personalizada deste título*/
-}
-
-.conteudo_principal_girias {
     background-color: #E1EDF5;
-    border-radius: 15px;
-    padding: 1% 1% 1% 1%;
-    margin: 1% 4% 1% 4%;
-    font-size: 1.5vw;
+    border-radius: 30px;
+    padding: 1.5%;
 }
 
-.conteudo_principal_girias_titulo {
-    /*Depois bota fonte personalizada deste titulo*/
-    padding-bottom: 0.5%;
+.principal_bloco_giria {
+    display: flex;
+    justify-content: space-between;
 }
 
-.conteudo_principal_girias_linhas {
+.principal_bloco_giria_nome {
+    font-weight: 700;
+}
+
+.principal_bloco_giria_temas {
+    background-color: #A3B7FF;
+    border-radius: 20px;
+    padding: 0.5%;
+}
+
+.principal_bloco_significados {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 5px;
+    padding-bottom: 1%;
 }
 
-.conteudo_principal_girias_linhas_linha {
+.principal_bloco_significados_titulo {
+    font-style: bold;
+}
+
+.principal_bloco_significados_texto {
+    font-weight: 500;
+}
+
+.principal_bloco_utilidade {
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    gap: 5px;
+    padding-bottom: 1%;
 }
 
-.conteudo_principal_girias_giria {
-    font-size: 1.7vw;
+.principal_bloco_utilidade_titulo {
+    font-size: bold;
 }
 
-.conteudo_principal_giria_do_dia {
+.principal_bloco_utilidade_texto {
+    font-weight: 500;
+}
+
+.principal_bloco_sinonimos {
     display: flex;
-    justify-content: space-around;
-    padding-top: 3%;
-    
+    flex-direction: column;
+    gap: 5px;
+    padding-bottom: 1%;
 }
 
-.conteudo_principal_giria_do_dia_texto {
-    background: linear-gradient(#BFE2FC, #728696);
-    border-radius: 20px;
-    padding: 1% 1% 1% 1%;
+.principal_bloco_sinonimos_titulo {
+    font-style: bold;
 }
 
-.conteudo_principal_giria_do_dia_titulo {
-    font-size: 2vw;
+.principal_bloco_sinonimos_texto {
+    font-weight: 500;
 }
 
-.conteudo_principal_giria_do_dia_significado {
-    font-size: 1.5vw;
-    padding: 1.5% 1.5% 0 0;
-}
 
-.conteudo_principal_giria_do_dia_lista {
-    font-size: 1.5vw;
-    padding-inline-start: 10%;
-    /*tem q arruamr a identação desta lista*/
-}
 
-.conteudo_principal_giria_do_dia_link {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
-.conteudo_principal_giria_do_dia_link {
-    font-size: 1.5vw;
-}
-
-.conteudo_principal_giria_do_dia_link_decoracao {
-    color: rgb(0, 38, 255);
-}
-
-.conteudo_principal_giria_do_dia_publicidade {
-    background-color: #D9D9D9;
-    padding: 10%;
-}
 
 /*-----------------*/
 
@@ -212,10 +201,5 @@ body {
 }
 
 .rodape_links_linhas_linha {
-    font-size: 1vw;
-}
-
-.rodape_links_linhas_linha_link {
-    text-decoration: none;
-    color: black;
+    font-size: 1.05vw;
 }
