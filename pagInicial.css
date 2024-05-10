@@ -79,6 +79,22 @@ body {
 .btn-adicionar-tema {
     margin-top: 10px;
 }
+
+.menu-temas {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.menu-temas a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
 /*-----------------*/
 
 /* --- Main ---*/
@@ -208,11 +224,15 @@ body {
 
 .rodape_links_linhas {
     display: flex;
+    flex-direction: column;
     gap: 1.2vw;
+    padding-bottom: 5%;
 }
 
 .rodape_links_linhas_linha {
-    font-size: 1vw;
+    font-size: 1.05vw;
+    display: flex;
+    gap: 3vw;
 }
 
 .rodape_links_linhas_linha_link {

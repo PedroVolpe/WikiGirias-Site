@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="pagInicial.css">
+    <script src="pagInicial.js"></script>
     <title>WikiGírias</title>
 </head>
 <body>
@@ -16,12 +17,13 @@
             </div>
             
             <div class="cabecalho_conteudo_barra_pesquisa">
-                <input type="text" placeholder="Pesquisar por gíria ou tema">
-                <button class="btn btn-adicionar-tema">Adicionar Tema na Busca</button>
+                <input type="text" placeholder="Pesquisar por gíria ou tema" id="caixa-pesquisa">
+                <button onclick="lerTemas()" class="btn btn-adicionar-tema">Adicionar Tema na Busca</button>
+                <div id="menu-temas" class="menu-temas hidden"></div>
                 
             </div>
             <div class="cabecalho_conteudo_barra_pesquisa"> <!-- Adiciona uma nova barra de pesquisa para o botão -->
-                <button class="btn btn-buscar">Buscar</button>
+                <button onclick="realizarPesquisa()" class="btn btn-buscar">Buscar</button>
             </div>
         </div>
         <div class="barra_preta"></div> <!-- Barra preta inferior -->
@@ -38,73 +40,73 @@
             <div class="conteudo_principal_girias_linhas">
                 <section class="conteudo_principal_girias_linhas_linha">
                     <a class="conteudo_principal_girias_giria">
-                        1. Gíria1
+                        1. Zueira
                     </a>
     
                     <a class="conteudo_principal_girias_giria">
-                        5. Gíria5
+                        5. Treta
                     </a>
     
                     <a class="conteudo_principal_girias_giria">
-                        9. Gíria9
+                        9. Fuzuê
                     </a>
     
                     <a class="conteudo_principal_girias_giria">
-                        13. Gíria13
-                    </a>
-                </section>
-    
-                <section class="conteudo_principal_girias_linhas_linha">
-                    <a class="conteudo_principal_girias_giria">
-                        2. Gíria2
-                    </a>
-    
-                    <a class="conteudo_principal_girias_giria">
-                        6. Gíria6
-                    </a>
-    
-                    <a class="conteudo_principal_girias_giria">
-                        10. Gíria10
-                    </a>
-    
-                    <a class="conteudo_principal_girias_giria">
-                        14. Gíria14
+                        13. Papo reto
                     </a>
                 </section>
     
                 <section class="conteudo_principal_girias_linhas_linha">
                     <a class="conteudo_principal_girias_giria">
-                        3. Gíria3
+                        2. Crush
                     </a>
     
                     <a class="conteudo_principal_girias_giria">
-                        7. Gíria7
+                        6. Bater um rango
                     </a>
     
                     <a class="conteudo_principal_girias_giria">
-                        11. Gíria11
+                        10. Trem
                     </a>
     
                     <a class="conteudo_principal_girias_giria">
-                        15. Gíria15
+                        14. Sacar
                     </a>
                 </section>
     
                 <section class="conteudo_principal_girias_linhas_linha">
                     <a class="conteudo_principal_girias_giria">
-                        4. Gíria4
+                        3. Trocar ideia
                     </a>
     
                     <a class="conteudo_principal_girias_giria">
-                        8. Gíria8
+                        7. Trampo
                     </a>
     
                     <a class="conteudo_principal_girias_giria">
-                        12. Gíria12
+                        11. Guri/Guria
                     </a>
     
                     <a class="conteudo_principal_girias_giria">
-                        16. Gíria16
+                        15. Gente fina
+                    </a>
+                </section>
+    
+                <section class="conteudo_principal_girias_linhas_linha">
+                    <a class="conteudo_principal_girias_giria">
+                        4. Sextou
+                    </a>
+    
+                    <a class="conteudo_principal_girias_giria">
+                        8. Abestado
+                    </a>
+    
+                    <a class="conteudo_principal_girias_giria">
+                        12. Largar a mão
+                    </a>
+    
+                    <a class="conteudo_principal_girias_giria">
+                        16. Pila
                     </a>
                 </section>
             </div>
@@ -114,25 +116,25 @@
         <div class="conteudo_principal_giria_do_dia">
             <div class="conteudo_principal_giria_do_dia_texto">
                 <h2 class="conteudo_principal_giria_do_dia_titulo">
-                    Giria do dia:    "Gíria"
+                    Giria do dia:    "Foi de Base"
                 </h2>
                 <p class="conteudo_principal_giria_do_dia_significado">Significado:</p>
                 <ul class="conteudo_principal_giria_do_dia_lista">
-                    <li>Significado1</li>
-                    <li>Significado2</li>
-                    <li>Significado3</li>
+                    <li>Alguém ou algo que faleceu, morreu.</li>
+                    <li>Alguém ou algo que saiu de um local ou desepareceu.</li>
+                    <li>É geralmente utilizado em contexto informal de forma descontraída.</li>
                 </ul>
                 <br>
                 <div class="conteudo_principal_giria_do_dia_link">
                     <p class="conteudo_principal_giria_do_dia_link_texto">
                         Clique aqui para a acessar definição completa:
                     </p>
-                    <a href="" class="conteudo_principal_giria_do_dia_link_decoracao">link</a>
+                    <a href="pagGiria.html" class="conteudo_principal_giria_do_dia_link_decoracao">link</a>
                 </div>
             </div>
 
             <div class="conteudo_principal_giria_do_dia_publicidade">
-                Ad
+                Propaganda
             </div>
         </div>
         
@@ -146,18 +148,18 @@
 
             <section class="rodape_nome_icones">
                 <a href="" class="rodape_nome_icones_icone">
-                    <img src="assets/pagInicial/facebook.png" alt="icone-facebook">
+                    <img src="assets/facebook.png" alt="icone-facebook">
                 </a>
                 <a href="" class="rodape_nome_icones_icone">
-                    <img src="assets/pagInicial/linkedin.png" alt="icone-linkedin">
-                </a>
-                
-                <a href="" class="rodape_nome_icones_icone">
-                    <img src="assets/pagInicial/youtube.png" alt="icone-youtube">
+                    <img src="assets/linkedin.png" alt="icone-linkedin">
                 </a>
                 
                 <a href="" class="rodape_nome_icones_icone">
-                    <img src="assets/pagInicial/instagram.png" alt="icones-instagram">
+                    <img src="assets/youtube.png" alt="icone-youtube">
+                </a>
+                
+                <a href="" class="rodape_nome_icones_icone">
+                    <img src="assets/instagram.png" alt="icones-instagram">
                 </a>
                 
             </section>
@@ -202,5 +204,7 @@
             
         </section>
     </footer>
+    <script src="botao_buscar.js"></script>
+    <script src="adicionar_tema.js"></script>
 </body>
 </html>

@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="pagGiria.css">
-    <title>Gíria</title>
+    <title>Resultados</title>
+    <link rel="stylesheet" href="pagResultadoPesquisa.css">
 </head>
 <body>
     <header class="cabecalho">
@@ -17,8 +17,8 @@
             
             <div class="cabecalho_conteudo_barra_pesquisa">
                 <input type="text" placeholder="Pesquisar por gíria ou tema">
-                <button class="btn btn-adicionar-tema">Adicionar Tema na Busca</button>
-                <div class="temas-pesquisa"></div>
+                <button  class="btn btn-adicionar-tema">Adicionar Tema na Busca</button>
+                
             </div>
             <div class="cabecalho_conteudo_barra_pesquisa"> <!-- Adiciona uma nova barra de pesquisa para o botão -->
                 <button onclick="realizarPesquisa()" class="btn btn-buscar">Buscar</button>
@@ -27,60 +27,10 @@
         <div class="barra_preta"></div> <!-- Barra preta inferior -->
     </header>
 
-    <main class="principal">
-        <div class="principal_bloco">
-            <div class="principal_bloco_giria">
-                <h1 class="principal_bloco_giria_nome">
-                    Foi de base
-                </h1>
-
-                <h3 class="principal_bloco_giria_temas">
-                    Temas: morte, sair
-                </h3>
-                
-            </div>
-            <br>
-            <section class="principal_bloco_significados">
-                <h2 class="principal_bloco_significados_titulo">
-                    Significado
-                </h2>
-                <p class="principal_bloco_significados_texto">
-                    Alguém ou algo que faleceu, morreu.
-                </p>    
-                <p class="principal_bloco_significados_texto">
-                    Alguém ou algo que saiu de um local ou desepareceu.
-                </p>
-                <p class="principal_bloco_significados_texto">
-                    É geralmente utilizado em contexto informal de forma descontraída.
-                </p>
-            </section>
-
-            <section class="principal_bloco_utilidade">
-                <h2 class="principal_bloco_utilidade_titulo">
-                    Como a Gíria é usada:
-                </h2>
-
-                <p class="principal_bloco_utilidade_texto">
-                    João foi de base.
-                    <br>
-                    Luana não está na escola, ela foi de base.
-                </p>
-            </section>
-
-            <section class="principal_bloco_sinonimos">
-                <h2 class="principal_bloco_sinonimos_titulo">
-                    Sinônimos:
-                </h2>
-
-                <p class="principal_bloco_sinonimos_texto">
-                    sinonimo1
-                </p>
-
-                <p class="principal_bloco_sinonimos_texto">
-                    sinonimo2
-                </p>
-            </section>
-        </div>
+    <main>
+        <section class="resultados-pesquisa">
+            
+        </section>
     </main>
 
     <footer class="rodape">
@@ -110,36 +60,36 @@
         <section class="rodape_links">
             <div class="rodape_links_linhas">
                 <div class="rodape_links_linhas_linha">
-                    <a class="rodape_links_linhas_linha_link" href="">
+                    <a href="" class="rodape_links_linhas_linha_link">
                         Termos de Uso                    
                     </a>
-                    <a class="rodape_links_linhas_linha_link" href="">
+                    <a href="" class="rodape_links_linhas_linha_link">
                         Anuncie
                     </a>
-                    <a class="rodape_links_linhas_linha_link" href="">
+                    <a href="" class="rodape_links_linhas_linha_link">
                         Gíria do Dia
                     </a>
                 </div>                                        
                 <div class="rodape_links_linhas_linha">
-                    <a class="rodape_links_linhas_linha_link" href="">
+                    <a href="" class="rodape_links_linhas_linha_link">
                             Contato
                     </a>
-                    <a class="rodape_links_linhas_linha_link" href="">
+                    <a href="" class="rodape_links_linhas_linha_link">
                             Privacidade
                     </a>
-                    <a class="rodape_links_linhas_linha_link" href="">
+                    <a href="" class="rodape_links_linhas_linha_link">
                         Reportar erro
                     </a>
                 </div>            
                 
                 <div class="rodape_links_linhas_linha">
-                    <a class="rodape_links_linhas_linha_link" href="">
+                    <a href="" class="rodape_links_linhas_linha_link">
                         Gírias mais buscadas
                     </a>
-                    <a class="rodape_links_linhas_linha_link" href="">
+                    <a href="" class="rodape_links_linhas_linha_link">
                         Sobre nós
                     </a>
-                    <a class="rodape_links_linhas_linha_link" href="">
+                    <a href="" class="rodape_links_linhas_linha_link">
                         Sugerir definição
                     </a>
                 </div>
@@ -147,6 +97,8 @@
             
         </section>
     </footer>
+
+    <script src="resultadosPesquisa.js"></script>
     <script src="botao_buscar.js"></script>
 </body>
 </html>
