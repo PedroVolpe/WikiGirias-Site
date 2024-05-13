@@ -4,3 +4,4 @@ Seriedade
 Romance
 Dinheiro
 Comida
+Sair

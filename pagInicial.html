@@ -12,14 +12,16 @@
         <div class="barra_preta"></div> <!-- Barra preta superior -->
         <div class="cabecalho_conteudo">
             <div class="cabecalho_conteudo_titulo">
-                <h1>WikiGírias:</h1>
-                <h1>O Dicionário de Gírias</h1>
+                <h1 onclick="myFunc()">WikiGírias:</h1>
+                <h1 onclick="myFunc()">O Dicionário de Gírias</h1>
             </div>
             
             <div class="cabecalho_conteudo_barra_pesquisa">
                 <input type="text" placeholder="Pesquisar por gíria ou tema" id="caixa-pesquisa">
-                <button onclick="lerTemas()" class="btn btn-adicionar-tema">Adicionar Tema na Busca</button>
-                <div id="menu-temas" class="menu-temas hidden"></div>
+                <div class="dropdown">
+                    <button class="btn btn-adicionar-tema" onclick="toggleDropdown()">Adicionar Tema</button>
+                    <div class="dropdown-content" id="dropdown-temas" style="display: none;"></div>
+                </div>
                 
             </div>
             <div class="cabecalho_conteudo_barra_pesquisa"> <!-- Adiciona uma nova barra de pesquisa para o botão -->
@@ -116,7 +118,7 @@
         <div class="conteudo_principal_giria_do_dia">
             <div class="conteudo_principal_giria_do_dia_texto">
                 <h2 class="conteudo_principal_giria_do_dia_titulo">
-                    Giria do dia:    "Foi de Base"
+                    Giria do dia:    "Foi de base"
                 </h2>
                 <p class="conteudo_principal_giria_do_dia_significado">Significado:</p>
                 <ul class="conteudo_principal_giria_do_dia_lista">

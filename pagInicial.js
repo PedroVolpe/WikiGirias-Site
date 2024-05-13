@@ -1,5 +1,5 @@
 
 
 function myFunc() {
-    window.location = "pagGíria.html"
+    window.location = "pagInicial.html"
 }

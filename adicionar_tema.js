@@ -11,12 +11,15 @@ function lerTemas() {
 
 // Exibir os temas no menu suspenso
 function exibirTemas(temas) {
-    const dropdownContent = document.getElementById('menu-temas');
+    const dropdownContent = document.getElementById('dropdown-temas');
     temas.forEach(tema => {
         const link = document.createElement('a');
         link.href = '#';
         link.textContent = tema;
-        link.addEventListener('click', () => adicionarTemaNaPesquisa(tema));
+        link.addEventListener('click', () => {
+            adicionarTemaNaPesquisa(tema);
+            toggleDropdown();
+        });
         dropdownContent.appendChild(link);
     });
 }
@@ -25,7 +28,17 @@ function exibirTemas(temas) {
 function adicionarTemaNaPesquisa(tema) {
     const caixaPesquisa = document.getElementById('caixa-pesquisa');
     caixaPesquisa.value = `${caixaPesquisa.value} ${tema}`;
-
-    const dropdownContent = document.querySelector('.dropdown-content');
-    dropdownContent.style.display = 'none';
 }
+
+// Alternar a exibição do menu suspenso
+function toggleDropdown() {
+    const dropdownContent = document.getElementById('dropdown-temas');
+    if (dropdownContent.style.display === 'none') {
+        dropdownContent.style.display = 'flex';
+    } else {
+        dropdownContent.style.display = 'none';
+    }
+}
+
+// Chamar a função para ler os temas quando a página carregar
+window.onload = lerTemas;
