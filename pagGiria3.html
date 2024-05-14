@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pagGiria.css">
+    <title>Gíria</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="barra_preta"></div> <!-- Barra preta superior -->
+        <div class="cabecalho_conteudo">
+            <div class="cabecalho_conteudo_titulo">
+                <h1 onclick="myFunc()">WikiGírias:</h1>
+                <h1 onclick="myFunc()">O Dicionário de Gírias</h1>
+            </div>
+            
+            <div class="cabecalho_conteudo_barra_pesquisa">
+                <input type="text" placeholder="Pesquisar por gíria ou tema" id="caixa-pesquisa">
+                <div class="dropdown">
+                    <button class="btn btn-adicionar-tema" onclick="toggleDropdown()">Adicionar Tema</button>
+                    <div class="dropdown-content" id="dropdown-temas" style="display: none;"></div>
+                </div>
+                
+            </div>
+            <div class="cabecalho_conteudo_barra_pesquisa"> <!-- Adiciona uma nova barra de pesquisa para o botão -->
+                <button onclick="realizarPesquisa()" class="btn btn-buscar">Buscar</button>
+            </div>
+        </div>
+        <div class="barra_preta"></div> <!-- Barra preta inferior -->
+    </header>
+
+    <main class="principal">
+        <div class="principal_bloco">
+            <div class="principal_bloco_giria">
+                <h1 class="principal_bloco_giria_nome">
+                    Papo reto
+                </h1>
+
+                <h3 class="principal_bloco_giria_temas">
+                    Temas: Seriamente
+                </h3>
+                
+            </div>
+            <br>
+            <section class="principal_bloco_significados">
+                <h2 class="principal_bloco_significados_titulo">
+                    Significado
+                </h2>
+                <p class="principal_bloco_significados_texto">
+                    Expressão para deixar claro que a pessoa está dizendo seriamente
+                </p>    
+                <p class="principal_bloco_significados_texto">
+                    Transmitir uma idéia de forma objetiva, sem enrolação.
+                </p>
+                <p class="principal_bloco_significados_texto">
+                    É geralmente utilizado em contexto informal de forma descontraída.
+                </p>
+            </section>
+
+            <section class="principal_bloco_utilidade">
+                <h2 class="principal_bloco_utilidade_titulo">
+                    Como a Gíria é usada:
+                </h2>
+
+                <p class="principal_bloco_utilidade_texto">
+                    Aí meu irmão, vou te mandar a real, vou te passar agora um papo reto!
+                    <br>
+                    O papo tem que ser reto! Se for torto, você vai pro saco, entendeu?
+                </p>
+            </section>
+
+            <section class="principal_bloco_sinonimos">
+                <h2 class="principal_bloco_sinonimos_titulo">
+                    Sinônimos:
+                </h2>
+
+                <p class="principal_bloco_sinonimos_texto">
+                    sinonimo1
+                </p>
+
+                <p class="principal_bloco_sinonimos_texto">
+                    sinonimo2
+                </p>
+            </section>
+        </div>
+    </main>
+
+    <footer class="rodape">
+        <div class="rodape_nome">
+            <p class="rodape_nome_texto">
+                Wikigírias
+            </p>
+
+            <section class="rodape_nome_icones">
+                <a href="" class="rodape_nome_icones_icone">
+                    <img src="assets/facebook.png" alt="icone-facebook">
+                </a>
+                <a href="" class="rodape_nome_icones_icone">
+                    <img src="assets/linkedin.png" alt="icone-linkedin">
+                </a>
+                
+                <a href="" class="rodape_nome_icones_icone">
+                    <img src="assets/youtube.png" alt="icone-youtube">
+                </a>
+                
+                <a href="" class="rodape_nome_icones_icone">
+                    <img src="assets/instagram.png" alt="icones-instagram">
+                </a>
+                
+            </section>
+        </div>
+        <section class="rodape_links">
+            <div class="rodape_links_linhas">
+                <div class="rodape_links_linhas_linha">
+                    <a class="rodape_links_linhas_linha_link" href="">
+                        Termos de Uso                    
+                    </a>
+                    <a class="rodape_links_linhas_linha_link" href="">
+                        Anuncie
+                    </a>
+                    <a class="rodape_links_linhas_linha_link" href="">
+                        Gíria do Dia
+                    </a>
+                </div>                                        
+                <div class="rodape_links_linhas_linha">
+                    <a class="rodape_links_linhas_linha_link" href="">
+                            Contato
+                    </a>
+                    <a class="rodape_links_linhas_linha_link" href="">
+                            Privacidade
+                    </a>
+                    <a class="rodape_links_linhas_linha_link" href="">
+                        Reportar erro
+                    </a>
+                </div>            
+                
+                <div class="rodape_links_linhas_linha">
+                    <a class="rodape_links_linhas_linha_link" href="">
+                        Gírias mais buscadas
+                    </a>
+                    <a class="rodape_links_linhas_linha_link" href="">
+                        Sobre nós
+                    </a>
+                    <a class="rodape_links_linhas_linha_link" href="">
+                        Sugerir definição
+                    </a>
+                </div>
+            </div>
+            
+        </section>
+    </footer>
+    <script src="botao_buscar.js"></script>
+    <script src="pagInicial.js"></script>
+    <script src="adicionar_tema.js"></script>
+</body>
+</html>

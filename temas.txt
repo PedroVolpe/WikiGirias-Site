@@ -5,3 +5,4 @@ Romance
 Dinheiro
 Comida
 Sair
+Sem-graça
