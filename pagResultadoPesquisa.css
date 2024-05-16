@@ -80,6 +80,18 @@ body {
     margin-top: 10px;
 }
 
+.dropdown-content {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.dropdown-content a {
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+}
+
 /* Estilos do conteúdo principal */
 .resultados-pesquisa {
     padding: 20px;

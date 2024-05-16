@@ -16,8 +16,11 @@
             </div>
             
             <div class="cabecalho_conteudo_barra_pesquisa">
-                <input type="text" placeholder="Pesquisar por gíria ou tema">
-                <button  class="btn btn-adicionar-tema">Adicionar Tema na Busca</button>
+                <input type="text" placeholder="Pesquisar por gíria ou tema" id="caixa-pesquisa">
+                <div class="dropdown">
+                    <button class="btn btn-adicionar-tema" onclick="toggleDropdown()">Adicionar Tema na Busca</button>
+                    <div class="dropdown-content" id="dropdown-temas" style="display: none;"></div>
+                </div>
                 
             </div>
             <div class="cabecalho_conteudo_barra_pesquisa"> <!-- Adiciona uma nova barra de pesquisa para o botão -->
